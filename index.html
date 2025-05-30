@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<style>
+    #Body{
+        height:2500px;
+        background-color:black;
+    }
+    img{
+        height:40px;
+        width: 100px;
+        margin-right:200px;
+    }
+    button{
+        background-color:black;
+        color:red;
+    }
+    #button:hover{
+        color:blue;
+    }
+    .Hero_Section{
+        height:400px;
+        width:1322px;
+        background-color:red;
+        border:2px solid black;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #Ending{
+        background-color:black;
+        height:300px;
+        text-align:center;
+        scroll-behavior: smooth;
+    }
+    .content1{
+        height:400px;
+        width:400px;
+        background-image:url("popcorn.jpg");
+        background-size:cover;
+    }
+     .content2{
+        height:400px;
+        width:400px;
+        background-color:black;
+    }
+     .content3{
+        height:400px;
+        width:400px;
+        background-image:url("movie.jpg.jpg");
+        background-size:cover;
+    }
+    #NavBar{
+        height: 60px;
+        background-color: black;
+        margin-top:0px;
+        border-style:dotted;
+        position:fixed;
+    }
+    #Trending{
+        height:400px;
+        width:1322px;
+        background-color:black;
+        color:red;
+    }
+    .content5{
+        height:300px;
+        width:300px;
+        background-image:url("missionI.jpg");
+        background-size: cover;
+        display:inline-block;
+        text-align:left;
+    }
+    .content6{
+        height:300px;
+        width:300px;
+        background-image:url("avengers-doomsday.png");
+         background-size: cover;
+        display:inline-block;
+    }
+    .content7{
+        height:300px;
+        width:300px;
+        background-image:url("jungle.jpg");
+         background-size: cover;
+        display:inline-block;
+    }
+    .content8{
+        height:300px;
+        width:300px;
+        background-image:url("mufasa.jpeg");
+         background-size: cover;
+        display:inline-block;
+
+    }
+    #popular_show{
+        height:400px;
+        width:1322px;
+        background-color:black;
+        color:red;
+    }
+    .series1{
+        height:300px;
+        width:300px;
+        background-image: url("breaking_bad.webp");
+        background-size: cover;
+        display:inline-block;
+        color:red;
+    }
+    .series2{
+        height:300px;
+        width:300px;
+        background-image: url("loki.webp");
+        background-size: cover;
+        display:inline-block;
+           color:black;
+    }
+    .series3{
+        height:300px;
+        width:300px;
+        background-image: url("family_guy.jpg");
+        background-size: cover;
+        display:inline-block;
+           color:black;
+    }
+    .series4{
+        height:300px;
+        width:300px;
+        background-image: url("st.jpg");
+        background-size: cover;
+        display:inline-block;
+           color:red;
+    }
+    #User{
+        height:800px;
+        width:1322px;
+        background-image:url("review.avif");
+        background-size: cover;
+        color:red;
+    }
+    .review1{
+        height:300px;
+        width:300px;
+        display:inline-block;
+        background-color: red;
+        margin-right:400px;
+        margin-left:100px;
+        color:black;
+        transition:font-size 2s ease-in-out 0.2s;
+    }
+    .review2{
+        height:300px;
+        width:300px;
+        display:inline-block;
+        background-color: blue;
+        color:black;
+    }
+    a{
+        margin-right: 150px;
+        padding-bottom:60px;
+        color:white;
+    }
+    a:hover{
+        color:blue;
+    }
+</style>
+<body>
+    <header>
+        <div id="NavBar">
+        <img src="https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940" alt="Netflix"/>
+        <a href="nolink.php"><u>Trending Movies</u></a>
+        <a href="nolink.php"><u>Popular Shows</u></a>
+        <a href="nolink.php"><u>User Review</u></a>
+        <input type="Text" placeholder="Search here" />
+        <button> Click Here</button>
+        </div>
+        </header>
+        <div id="Body">
+            <div class="Hero_Section" style="background-color:white">
+                <div class="content1">
+                    <h1> My Movies</h1>
+                    <ul>
+                        <li><h3>Interstellar</h3></li>
+                        <li><h3>Batman</h3></li>
+                        <li><h3>Slumdog Millionaire</h3></li>
+                        <li><h3>Mission Impossible</h3></li>
+                        <li><h3>Resident Evil</h3></li>
+                        <li><h3>Captain America-Winter Soldier</h3></li>
+                        <li><h3>Avengers Endgame</h3></li>
+
+                    </ul>
+                </div>
+                <div class="content2" style="width:522px"></div>
+                <div class="content3">box 2</div>
+            </div>
+            <div id="Trending">
+                <h1>Trending Movies</h1>
+                <h3>Trending movies to watch now!</h3>
+                <div class="content5">
+                    <h1>Mission Impossible</h1>\
+                    <h2>Duration: 2hrs 30 min</h2>
+                </div>
+                <div class="content6"><h1>Avengers Doomsday</h1>
+                <h2>Duration: 2hrs 30 min</h2></div>
+                <div class="content7"><h1>Jungle Book</h1>
+                <h2>Duration: 1hrs 30 min</h2></div>
+                <div class="content8"><h1>Mufasa</h1>
+                <h2>Duration: 2hrs </h2></div>
+            </div>
+            <div id="popular_show">
+                <h1>Popular Shows</h1>
+                <h3>Popular shows to catch up!</h3>
+                <div class="series1"><h1>Breaking Bad</h1>
+                <h3>Seasons:3</h3>
+                <h3>Genre:thriller</h3>
+                <h3>Duration: 40mins</h3></div>
+                <div class="series2"><h1>Loki</h1>
+                <h3>Seasons:2</h3>
+                <h3>Genre:thriller</h3>
+                <h3>Duration: 40mins</h3></div>
+                <div class="series3"><h1>Family Guy</h1>
+                <h3>Seasons:4</h3>
+                <h3>Genre:comedy</h3>
+                <h3>Duration: 40mins</h3></div>
+                <div class="series4"><h1>stranger things</h1>
+                <h3>Seasons:5</h3>
+                <h3>Genre:thriller and horror</h3>
+                <h3>Duration: 40mins</h3></div>
+            </div>
+            <div id="User">
+                <h1>User reviews</h1>
+                <div class="review1">
+                <h2>Review 1:(5/5)</h2>
+                 <h3>By: MovieBuff92</h3>
+                 <p>"Binge-Worthy Heaven!"
+                    I've been using this app for over six months, and I’m hooked. The content library is massive from international films to original series, there's always something new to watch. The recommendation engine is scarily accurate; it feels like it knows my taste better than I do. The app runs smoothly on my smart TV and phone, and I love the option to download episodes for offline viewing.</p>
+                </div>
+                <div class="review2">
+                <h2>Review 2:(2/5)</h2>
+                <h3>By: techskeptic</h3>
+                <p>"Needs Serious Improvement"
+                    The content is decent, but the user experience leaves a lot to be desired. The search function is clunky, and the app often crashes when streaming on my tablet. Also, too many good shows are locked behind premium tiers, which feels like a cash grab. I expected better performance for the subscription price. Unless the bugs are fixed and pricing is made more transparent, I won't be renewing.</p>
+                </div>
+                <form>
+                    <h3>Enter name:</h3>
+                    <input type="text" placeholder="Enter your name here" />
+                    <h3>Enter E-mail</h3>
+                    <input type="text" placeholder="Enter your email here" />
+                    <h3>Feedback</h3>
+                    <textarea name="Feedback" placeholder="Enter your feedback" height="50px" width="50px">Feedback</textarea>
+                    <br/>
+                    <input type="Submit" />
+                </form>
+            </div>
+        <footer>
+            <div id="Ending" style="color:white"> Thank you for using Netflix
+                <br/>
+                <br/>
+                <br/>
+                <a href="https://instagram.com" > <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" height="80px" /></a>
+                <a href="https://twitter.com" ><img src="https://assets.turbologo.com/blog/en/2019/07/19085130/twitter-bird-logo.png" height="80px" /></a>
+                <br/>
+                <br/>
+                <br/>
+                <br>
+                <a href="https://example.com/terms" target="_blank" style="color: #ccc;">Terms & Conditions</a> |
+                <a href="https://example.com/privacy" target="_blank" style="color: #ccc;">Privacy Policy</a>
+                <br/>
+                <br/>
+                <br/>
+                <button>back to top</button>
+            
+      </div>
+        </footer>
+</body>
+</html>
